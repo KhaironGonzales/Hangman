@@ -1,0 +1,140 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.inputfield input {
+
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+}
+
+
+#maincon {
+    /*all keyboard container*/
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+    border-radius: 10px;
+    display: none;
+
+}
+
+.keyboard {
+    /*keyboard container per line*/
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    gap: 10px
+}
+
+.keyboard button {
+    height: 65px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+/**/
+
+#userinp {
+    /*container*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    border-radius: 10px;
+
+
+
+}
+
+#hideMe {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+}
+
+#userInput {
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+#enterbut {
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#inputContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+
+
+}
+
+.generatedfields {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: 10px;
+    text-align: center;
+    border: solid black;
+    border-radius: 10px;
+    border-width: 5px;
+
+}
+
+
+#maincon {
+    display: none;
+    margin-top: 0px;
+
+}
+
+#hangmandiv {
+
+
+    margin-top: 20%;
+    margin-right: 45%;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    display: none;
+
+}

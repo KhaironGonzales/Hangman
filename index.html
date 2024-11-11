@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link rel="icon" href="hangman.jpg" type="image/icon type">
+    <title>Hangman</title>
+
+</head>
+
+<body>
+
+    <div id="hangmandiv">
+
+        <img class="image" src="/2ND/Hangman/1.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/2.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/3.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/4.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/5.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/6.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/7.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/8.png" alt="Image">
+        <img class="image" src="/2ND/Hangman/9.png" alt="Image">
+
+    </div>
+    <div id="userinp">
+
+        <!-- Input field to get the value from -->
+
+        <div id="hideMe">
+            <input type="text" id="userInput" placeholder="Type something">
+            <button id="enterbut" onclick="generateInputFields()">Enter Word!</button>
+        </div>
+        <!-- Button to trigger the action -->
+        <div id="inputContainer"></div> <!-- Container where the input fields will be added -->
+    </div>
+
+    <div id="maincon">
+
+        <div class="keyboard">
+
+            <button class="letters">Q</button>
+            <button class="letters">W</button>
+            <button class="letters">E</button>
+            <button class="letters">R</button>
+            <button class="letters">T</button>
+            <button class="letters">Y</button>
+            <button class="letters">U</button>
+            <button class="letters">I</button>
+            <button class="letters">O</button>
+            <button class="letters">P</button>
+
+        </div>
+        <div class="keyboard">
+            <button class="letters">A</button>
+            <button class="letters">S</button>
+            <button class="letters">D</button>
+            <button class="letters">F</button>
+            <button class="letters">G</button>
+            <button class="letters">H</button>
+            <button class="letters">J</button>
+            <button class="letters">K</button>
+            <button class="letters">L</button>
+
+        </div>
+        <div class="keyboard">
+            <button class="letters">Z</button>
+            <button class="letters">X</button>
+            <button class="letters">C</button>
+            <button class="letters">V</button>
+            <button class="letters">B</button>
+            <button class="letters">N</button>
+            <button class="letters">M</button>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
